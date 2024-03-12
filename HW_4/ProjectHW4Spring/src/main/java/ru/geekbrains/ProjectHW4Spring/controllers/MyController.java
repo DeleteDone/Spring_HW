@@ -38,8 +38,8 @@ public class MyController {
      */
     @GetMapping("/task2")
     public String task2(Model model) {
-        model.addAttribute("name", "Nikita");
-        model.addAttribute("lastName", "Lyskov");
+        model.addAttribute("name", "Oksana");
+        model.addAttribute("lastName", "Askerova");
         return "task2Page";
     }
 
